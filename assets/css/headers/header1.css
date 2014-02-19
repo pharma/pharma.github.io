@@ -2,7 +2,6 @@
 ------------------------------------*/
 .top {
 	padding-top: 8px;
-	padding-bottom: 4px;
 }
 
 .top ul.loginbar {
@@ -20,9 +19,9 @@
 
 .top ul.loginbar > li > a, 
 .top ul.loginbar > li > a:hover {
-	color: #000;
-	/*font-size: 11px;
-	text-transform: uppercase;*/
+	color: #7c8082;
+	font-size: 11px;
+	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -103,7 +102,6 @@
 	z-index:999;
 	position:relative;
 	border-bottom:solid 2px #eee;
-	height:72px
 }
 
 .header .navbar {
@@ -225,7 +223,7 @@
 
 	/*Navbar*/
 	.header .navbar-nav {
-		top: 22px;
+		top: 2px;
 		margin-top: 10px;
 		position: relative;
 	}

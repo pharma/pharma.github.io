@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+a.accordion-toggle {
+	background: rgba(52, 152, 219, 0.19);
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.acc-v1 .panel-heading a {
+	background-color: rgba(52, 152, 219, 0.19);
+}

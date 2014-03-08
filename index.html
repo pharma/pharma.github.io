@@ -2,6 +2,8 @@
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+
+
 <head>
     <title>Optimus | Welcome...</title>
 
@@ -24,7 +26,9 @@
     <link rel="stylesheet" href="assets/plugins/layer_slider/css/layerslider.css" type="text/css">
     <!-- CSS Theme -->    
     <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
-    <link rel="stylesheet" href="assets/css/themes/headers/header1-blue.css" id="style_color-header-1">    
+    <link rel="stylesheet" href="assets/css/themes/headers/header1-blue.css" id="style_color-header-1"> 
+    <link rel="stylesheet" href="assets/css/optimus.css">
+      
 </head>	
 
 <body>
@@ -105,16 +109,29 @@
                             <li><a href="history.html">History</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
-                           Products
-                            <i class="icon-angle-down"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="API_list.html">API</a></li>
-                            <li><a href="Intermediaries.html">Intermediaries</a></li>
-                        </ul>
-                    </li>
+                    <li class="dropdown active"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown" data-hover="dropdown" data-delay="0"
+							data-close-others="false"> Products <i
+								class="icon-angle-down"></i>
+						</a>
+							<ul class="dropdown-menu">
+
+								<li class="dropdown-submenu"><a tabindex="-1" href="#">API</a>
+									<ul class="dropdown-menu">
+										
+										<li><a href="apicommercial.html">Commercial</a></li>
+										<li><a href="apiunderdevelopment.html">Under Development</a></li>
+									</ul></li>
+									
+									<li class="dropdown-submenu"><a tabindex="-1" href="#">Intermediaries</a>
+									<ul class="dropdown-menu">
+										
+										<li><a href="intcommercial.html">Commercial</a></li>
+										<li><a href="intunderdevelopment.html">Under Development</a></li>
+									</ul></li>
+
+							</ul>
+							</li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
                             Research

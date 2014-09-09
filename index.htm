@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome</title>
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow">
+<meta name="description" content="Rify Hosting provides Web Hosting Hyderabad, Google Apps Email Hosting Integration Hyderabad, Domain Registration, Web Designing, Web Application Development, Search Engine Optimization, Google Apps Company in Hyderabad, Top Webdesign Company in Hyderabad" />
+<meta name="keywords" content="Web Hosting Hyderabad, Google Apps Email Hosting Integration Hyderabad, Domain Registration, Web Designing, Web Application Development, Search Engine Optimization, Web Designing company in Punjagutta, Hyderbad, India, Webdesign Hyderabad, VPS Hosting, virtual private servers, Windows Servers, Linux Servers, Indian Servers, CMS Websites Development, Best Website Designing Company, Mobile Apps, Email Servers in Hyderabad, Top Growing Company in Hyderabad, Web Designing Company in Hyderabad" />
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Roboto|Medula+One);
+body {
+	margin-left: 0px;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #f1f1f1;
+	font:normal 12px 'Roboto', sans-serif;
+	color:#1f1c5b;
+	line-height:17px
+}
+.text{
+	font:normal 11px Arial, Helvetica, sans-serif;
+	color:#999;
+	text-decoration:none;
+	line-height:13px;
+}
+.text1{
+	font:normal 20px 'Roboto', sans-serif;
+	color:#999;
+	text-decoration:none;
+	line-height:25px;
+}
+.text2{
+	font:normal 28px 'Medula One', cursive;
+	color:#6a6a6a;
+	text-decoration:none;
+	line-height:30px;
+	letter-spacing:0.5px;
+}
+</style>
+<link rel="stylesheet" href="scripts/tooltip.css" type="text/css" />
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="top"><table width="943" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" valign="top"><table width="943" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center" valign="top" style="background:url(images/top-bg.jpg) no-repeat top" height="21"></td>
+          </tr>
+          <tr>
+            <td height="450" align="center" valign="middle" class="text2" style="background:url(images/middle-bg.jpg) repeat-y"><img src="images/thank-you.jpg" width="238" height="196" border="0" vspace="10"/><br />
+              This website is currently being updated.<br />
+              Please visit us later.</td>
+          </tr>
+          <tr>
+            <td align="center" valign="bottom" style="background:url(images/bottom-bg.jpg) no-repeat top" height="65"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>&nbsp;</td>
+                <td width="170" align="center" valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="50" align="left" valign="middle"><div data-test-title="Web Hosting, Google Apps Email Hosting, Domain Registration, Web Designing, Web Application Development, Search Engine Optimization"><a href="http://www.rify.com" target="_blank"><img src="images/web-designing.png" width="35" height="20" border="0" /></a></div></td>
+                    <td width="200" align="left" valign="middle" class="text"><div data-test-title="Web Hosting, Google Apps Email Hosting, Domain Registration, Web Designing, Web Application Development, Search Engine Optimization"><a href="http://www.rify.com/linux-web-hosting.php" target="_blank" class="text">Web &amp; </a>Email Hosting<br />
+                      <a href="http://www.rify.com/website-designing.php" target="_blank" class="text">Web Designing</a><br />
+                    </div></td>
+                  </tr>
+                </table></td>
+                <td width="10">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<script src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/tooltip.js"></script>
+  <script>
+
+    var tipped = $('[data-test-title]');
+    var output = $('#output');
+    var source = '<div title="" data-tooltip-direction="" data-tooltip-color="" data-tooltip-margin=""></div>';
+    var direction = 'top';
+    var color = 'white';
+    var title = 'some text';
+    var margin = 5;
+
+    tipped.each(function(){
+      $(this).attr('title', $(this).data('test-title'));
+    });
+
+    $(document).ready(function(){
+      $('[name="direction"]').val([direction]).change(function(){
+        direction = $(this).val();
+        tipped.data('tooltip-direction', direction);
+        setSource();
+      });
+     
+      
+      setSource();
+
+    });
+
+  </script>
+</body>
+</html>
